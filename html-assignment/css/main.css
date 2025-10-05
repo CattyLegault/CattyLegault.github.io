@@ -43,6 +43,11 @@ ul li a:hover {
     float: right;
 }
 
+.title-site {
+    background-color: greenyellow;
+    color: black;
+}
+
 /* trying to get it on the right side of website  */
 
 .nav-right {
