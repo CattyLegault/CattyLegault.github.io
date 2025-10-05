@@ -31,6 +31,10 @@ ul li a:hover {
     background-color: none;
 }
 
+#my-image {
+    float: left;
+}
+
 /* trying to get it on the right side of website  */
 
 .nav-right {
