@@ -4,13 +4,12 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     margin: 2;
     padding: 2;
     display: flex;
     background-color: blueviolet;
     overflow: hidden;
-    float: right;
 }
 
 ul li a {
@@ -25,4 +24,10 @@ ul li a {
 ul li a:hover {
     background-color: violet;
     color: bisque;
+}
+
+/* trying to get it on the right side of website  */
+
+.nav-right {
+    float: right;
 }
