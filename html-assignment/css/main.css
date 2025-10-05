@@ -46,6 +46,8 @@ ul li a:hover {
 .title-site {
     background-color: #8dc63f;
     color: black;
+    margin: auto;
+    padding: 0ch;
 }
 
 /* trying to get it on the right side of website  */
