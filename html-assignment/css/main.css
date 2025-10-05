@@ -48,6 +48,7 @@ ul li a:hover {
     color: black;
     margin: auto;
     padding: 2ch;
+    text-align: center;
 }
 
 /* trying to get it on the right side of website  */
