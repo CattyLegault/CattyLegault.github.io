@@ -16,7 +16,7 @@ ul li a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 14px, 18px;
+    padding: 14px, 16px;
     text-align: center;
 
 }
@@ -45,10 +45,11 @@ ul li a:hover {
 
 .site-title {
     background-color: #8dc63f;
-    color: black;
+    color: white;
     margin: auto;
     padding: 2ch;
     text-align: center;
+
 }
 
 /* trying to get it on the right side of website  */
