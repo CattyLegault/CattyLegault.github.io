@@ -44,8 +44,6 @@ ul li a:hover {
 }
 
 .site-title {
-    background-color: #8dc63f;
-    color: white;
     margin: auto;
     padding: 2ch;
     text-align: center;
@@ -54,6 +52,11 @@ ul li a:hover {
 
 .table-style {
     padding: 1in;
+}
+
+header, footer {
+    background-color:#8dc63f;
+    color: white;
 }
 
 /* trying to get it on the right side of website  */
