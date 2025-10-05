@@ -26,6 +26,10 @@ ul li a:hover {
     color: bisque;
 }
 
+.work {
+    text-decoration: none;
+}
+
 /* trying to get it on the right side of website  */
 
 .nav-right {
