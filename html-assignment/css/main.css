@@ -57,6 +57,7 @@ ul li a:hover {
 header, footer {
     background-color:#8dc63f;
     color: white;
+    padding: 2ch;
 }
 
 /* trying to get it on the right side of website  */
