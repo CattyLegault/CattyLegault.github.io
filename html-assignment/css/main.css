@@ -60,6 +60,10 @@ header, footer {
     padding: 2ch;
 }
 
+blockquote {
+    padding: 1em;
+}
+
 /* trying to get it on the right side of website  */
 
 .nav-right {
