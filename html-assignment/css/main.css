@@ -35,6 +35,14 @@ ul li a:hover {
     float: left;
 }
 
+.about {
+    float: right;
+}
+
+.extra {
+    float: right;
+}
+
 /* trying to get it on the right side of website  */
 
 .nav-right {
