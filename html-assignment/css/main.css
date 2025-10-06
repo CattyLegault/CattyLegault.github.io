@@ -39,6 +39,8 @@ ul li a:hover {
 
 .about {
     float: right;
+    padding: 1em;
+    overflow: hidden;
 }
 
 .extra {
