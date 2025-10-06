@@ -7,7 +7,7 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 2em;
+    padding: 2em 0 0;
     display: flex;
     background-color: blueviolet;
     justify-content: space-between;
