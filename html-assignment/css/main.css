@@ -45,6 +45,8 @@ ul li a:hover {
 
 .extra {
     float: right;
+    padding: 1em;
+    overflow: hidden;
 }
 
 .site-title {
