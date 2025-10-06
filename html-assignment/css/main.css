@@ -7,11 +7,10 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 2;
-    padding: 2;
+    padding: 2em;
     display: flex;
     background-color: blueviolet;
-    overflow: hidden;
+    justify-content: space-between;
 }
 
 ul li a {
@@ -52,7 +51,7 @@ ul li a:hover {
 
 .site-title {
     margin: auto;
-    padding: 2ch;
+    padding: 2ch 0 0;
     text-align: center;
     color: white;
 
@@ -70,10 +69,4 @@ header, footer {
 
 blockquote, cite {
     padding: 1rem;
-}
-
-/* trying to get it on the right side of website  */
-
-.nav-right {
-    float: right;
 }
