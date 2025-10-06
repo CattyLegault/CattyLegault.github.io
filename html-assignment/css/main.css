@@ -65,6 +65,7 @@ ul li a:hover {
 header, footer {
     background-color:#8dc63f;
     padding: 2ch;
+    color: white;
 }
 
 blockquote, cite {
