@@ -39,8 +39,11 @@ ul li a:hover {
     
 }
 
-.about {
+.main-p, .main-header {
     text-align: right;
+}
+
+.about {
     padding: 1em;
     overflow: hidden;
 }
