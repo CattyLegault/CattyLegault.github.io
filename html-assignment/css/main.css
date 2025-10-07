@@ -41,10 +41,9 @@ ul li a:hover {
 
 .main-p, .main-header {
     text-align: justify;
-    padding: 5px;
-    width: 100px;
-    height: 100px;
-    float: right;
+    padding: 1ch;
+    width: 200px;
+    height: 200px;
 }
 
 .about {
