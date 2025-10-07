@@ -36,7 +36,7 @@ ul li a:hover {
 
 #my-image {
     float: left;
-    box-shadow: 3px 6px 6px lab(73.81% -39 59.04);
+    box-shadow: 10px 20px 3px lab(73.81% -39 59.04);
 }
 
 .main-p {
