@@ -25,6 +25,8 @@ ul li a {
 ul li a:hover {
     background-color: violet;
     color: bisque;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .work {
