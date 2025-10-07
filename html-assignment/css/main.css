@@ -43,6 +43,10 @@ ul li a:hover {
     text-align: right;
 }
 
+.main-header {
+    text-align: right;
+}
+
 .about {
     padding: 1em;
     overflow: hidden;
