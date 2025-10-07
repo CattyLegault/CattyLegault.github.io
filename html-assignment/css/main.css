@@ -44,6 +44,8 @@ ul li a:hover {
     padding: 1ch;
     width: 200px;
     height: 200px;
+    float: right;
+    display: flex;
 }
 
 .about {
