@@ -34,9 +34,7 @@ ul li a:hover {
 
 #my-image {
     float: left;
-    border-radius: 4px;
-    box-shadow: 0;
-    
+    box-shadow: 10px 5px 5px #8dc63f;  
 }
 
 .main-p {
