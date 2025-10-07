@@ -41,9 +41,9 @@ ul li a:hover {
 
 .main-p, .main-header {
     text-align: justify;
-    padding: 10px;
-    width: 50px;
-    height: 50px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
     float: right;
 }
 
