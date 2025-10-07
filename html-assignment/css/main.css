@@ -41,6 +41,7 @@ ul li a:hover {
 
 .main-p, .main-header {
     text-align: right;
+    word-wrap: normal;
 }
 
 .about {
