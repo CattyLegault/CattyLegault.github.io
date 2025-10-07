@@ -59,6 +59,10 @@ ul li a:hover {
 
 }
 
+.new-list {
+    text-decoration: solid;
+}
+
 .table-style {
     padding: 1em;
     margin: 0;
