@@ -40,16 +40,6 @@ ul li a:hover {
     border: 1px;
 }
 
-.main-p {
-    text-align: right;
-    text-wrap: balance;
-    float: right;
-}
-
-.main-header {
-    text-align: right;
-}
-
 .about {
     padding: 1em;
     overflow: hidden;
