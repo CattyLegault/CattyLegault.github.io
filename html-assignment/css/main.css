@@ -84,10 +84,26 @@ section ol li:nth-child(odd) {
 
 /* This is the table style  */
 .table-style {
-    padding: 1em;
-    margin: 0;
+    border-collapse: collapse;
+    width: 100%;
 }
 
+td, th {
+    border: 1px solid blueviolet;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+tr:nth-child (even){
+    background-color: #f2f2f2:
+}
+
+/* Separate styling  */
 header, footer {
     background-color:#8dc63f;
     padding: 2ch;
