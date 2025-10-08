@@ -68,6 +68,10 @@ ul li a:hover {
     background-color: none;
 }
 
+.hobbies {
+    list-style-type: square;
+}
+
 .small-heading {
     margin: 1em;
     padding: 1em;
