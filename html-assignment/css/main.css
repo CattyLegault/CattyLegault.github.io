@@ -77,7 +77,7 @@ ul li a:hover {
     font-size: larger;
 }
 
-section ol:nth-child(odd) {
+section ol li:nth-child(odd) {
     background-color: #ed2390;
     color: white;
 }
