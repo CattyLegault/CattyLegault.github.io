@@ -91,5 +91,6 @@ header, footer {
 
 /* site padding  */
 blockquote, cite {
-    padding: 1rem;
+    padding: 1em;
+    margin: 1em;
 }
