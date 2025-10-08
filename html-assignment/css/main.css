@@ -31,7 +31,6 @@ ul li a:hover {
 
 .work {
     text-decoration: none;
-    background-color: none;
 }
 
 #my-image {
@@ -64,12 +63,10 @@ ul li a:hover {
     text-decoration: solid;
     display: block;
     margin: 2em;
-    background-color: none;
 }
 
 .hobbies {
     list-style-type: square;
-    background-color: none;
 }
 
 .small-heading {
