@@ -77,6 +77,11 @@ ul li a:hover {
     font-size: larger;
 }
 
+section ol:nth-child(odd) {
+    background-color: #ed2390;
+    color: white;
+}
+
 /* This is the table style  */
 .table-style {
     padding: 1em;
