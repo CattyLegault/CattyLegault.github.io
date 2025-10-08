@@ -23,8 +23,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: violet;
-    color: bisque;
+    background-color: #ed2390;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
 }
