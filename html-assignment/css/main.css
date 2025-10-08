@@ -93,4 +93,5 @@ header, footer {
 blockquote, cite {
     padding: 1em;
     margin: 1em;
+    font-size: 19px;
 }
