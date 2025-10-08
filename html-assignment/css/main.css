@@ -70,6 +70,7 @@ ul li a:hover {
 
 .hobbies {
     list-style-type: square;
+    background-color: none;
 }
 
 .small-heading {
