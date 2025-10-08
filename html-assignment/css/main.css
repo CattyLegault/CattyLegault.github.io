@@ -73,6 +73,10 @@ ul li a:hover {
     background-color: none;
 }
 
+.small-heading {
+    margin: 2em;
+}
+
 .table-style {
     padding: 1em;
     margin: 0;
