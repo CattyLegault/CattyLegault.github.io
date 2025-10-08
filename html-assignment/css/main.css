@@ -108,6 +108,10 @@ tr:nth-child (even) {
     background-color: #f2f2f2:
 }
 
+.table-title {
+    font-size: large;
+}
+
 /* Separate styling  */
 header, footer {
     background-color:#8dc63f;
