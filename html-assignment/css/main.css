@@ -63,7 +63,8 @@ ul li a:hover {
 .new-list {
     text-decoration: solid;
     padding: 2em;
-    display: none;
+    display: block;
+    margin: 2em;
 }
 
 .table-style {
