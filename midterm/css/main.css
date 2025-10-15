@@ -22,5 +22,18 @@ body {
 
 .nav-main {
   text-decoration: none;
-  display: block;
+  list-style-type: none;
+  padding: 2em;
+  display: flex;
+  background-color: #d66436;
+  justify-content: space-between;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+
 }
