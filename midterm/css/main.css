@@ -2,11 +2,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.nav-main {
-  text-decoration: none;
-  display: block;
-}
-
 .hero-image {
   background-image: url('../images/photo-banner.jpg');
   height: 200%;
@@ -23,4 +18,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.nav-main {
+  text-decoration: none;
+  display: block;
 }
