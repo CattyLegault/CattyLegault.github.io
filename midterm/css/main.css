@@ -38,17 +38,17 @@ body {
  }
 
 ul li a {
-    display: block;
-    list-style-type: none;
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
-    text-align: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #d66436;
 
 }
 
 ul li a:hover {
-    background-color: #d66436;
+    background-color: #fd8151;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
