@@ -35,7 +35,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  display: inline-block;
  }
 
 ul li a {
@@ -44,6 +43,7 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: #d66436;
+  display: inline-block;
 
 }
 
