@@ -36,3 +36,10 @@ ul li a {
     text-align: center;
 
 }
+
+ul li a:hover {
+    background-color: #d66436;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
