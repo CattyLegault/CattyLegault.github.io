@@ -80,4 +80,5 @@ input[type=submit]:hover {
 footer {
   background-color: #82bcaa;
   color: white;
+  padding: 2em;
 }
