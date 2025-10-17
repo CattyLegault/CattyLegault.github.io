@@ -20,8 +20,7 @@ nav ul li:last-child {
 }
 
 .image {
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
     float: left;
 }
