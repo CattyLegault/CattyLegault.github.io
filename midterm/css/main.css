@@ -11,6 +11,8 @@ nav ul li {
   display: inline-block;
   width: 100px;
   border-right: 1px solid #d76336;
+  font-size: large;
+  padding-top: 10px;
 }
 
 nav ul li:last-child {
