@@ -24,9 +24,3 @@ nav ul li:last-child {
     width: 50px;
     float: left;
 }
-
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
