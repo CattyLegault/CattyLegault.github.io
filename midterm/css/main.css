@@ -22,6 +22,12 @@ body {
   position: relative;
 }
 
+.logo {
+  width: 50%;
+  position: absolute;
+
+}
+
 nav ul {
   text-align: center;
   padding-left: 0;
