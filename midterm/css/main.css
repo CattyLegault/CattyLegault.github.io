@@ -88,6 +88,10 @@ h3 {
   padding-bottom: 5px;
 }
 
+ol li {
+  text-decoration: dotted;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
