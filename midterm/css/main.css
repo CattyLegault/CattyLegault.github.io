@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #82bcaa;
+  background-color: #3f5743;
 }
 
 .wrapper {
@@ -46,7 +46,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   width: 100px;
-  border-right: 2px solid #d76336;
+  border-right: 2px solid #82bcaa;
   font-size: 2em;
   margin: auto;
 }
