@@ -37,6 +37,10 @@ nav ul li:last-child {
     padding: 10px;
 }
 
+p {
+  margin-left: 10px;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
