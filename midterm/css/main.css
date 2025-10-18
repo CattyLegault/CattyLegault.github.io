@@ -25,6 +25,7 @@ body {
 .logo {
   width: 50%;
   position: absolute;
+  top: 50%;
 
 }
 
