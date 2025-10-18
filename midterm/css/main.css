@@ -114,6 +114,10 @@ input[type=text], select {
   text-decoration: dashed;
 }
 
+.buttons {
+  display: inline-block;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
