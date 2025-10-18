@@ -30,6 +30,10 @@ nav ul li:last-child {
   border-right: none;
 }
 
+h2 {
+  margin: auto;
+}
+
 .image {
     height: 200px;
     width: 200px;
