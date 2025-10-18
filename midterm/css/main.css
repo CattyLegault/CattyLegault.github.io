@@ -30,6 +30,13 @@ body {
 
 }
 
+h1 {
+  position: absolute;
+  color: white;
+  top: -2%;
+  right: 25%;
+}
+
 nav ul {
   text-align: center;
   padding-left: 0;
