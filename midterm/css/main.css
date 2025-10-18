@@ -13,11 +13,16 @@ nav ul li {
   border-right: 1px solid #d76336;
   font-size: 2em;
   padding-top: 10px;
-  text-decoration: none;
 }
 
 nav ul li:last-child {
   border-right: none;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    float: left;
 }
 
 footer {
