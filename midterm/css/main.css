@@ -16,7 +16,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   width: 100px;
-  border-right: 4px solid #d76336;
+  border-right: 1.5px solid #d76336;
   font-size: 2em;
   padding-top: 10px;
 }
