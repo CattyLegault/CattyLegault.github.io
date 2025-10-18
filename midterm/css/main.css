@@ -47,7 +47,8 @@ nav ul li {
   width: 100px;
   border-right: 2px solid #d76336;
   font-size: 2em;
-  padding: 10px;
+  padding: 50%;
+  margin: auto;
 }
 
 nav ul li a {
