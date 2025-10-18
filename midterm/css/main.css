@@ -114,7 +114,7 @@ input[type=text], select {
   text-decoration: dashed;
 }
 
-.buttons {
+#id {
   display: inline-block;
 }
 
