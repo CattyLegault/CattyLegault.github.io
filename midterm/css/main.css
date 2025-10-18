@@ -19,3 +19,9 @@ nav ul li {
 nav ul li:last-child {
   border-right: none;
 }
+
+footer {
+  text-align: right;
+  background-color: #d76336;
+  color: white;
+}
