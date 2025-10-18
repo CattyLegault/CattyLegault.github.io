@@ -83,6 +83,11 @@ p {
   padding-left: 10px;
 }
 
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
