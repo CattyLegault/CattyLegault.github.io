@@ -49,12 +49,12 @@ nav ul li {
   border-right: 2px solid #82bcaa;
   font-size: 2em;
   margin: 0;
-  padding: 14px 16px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: black;
+  padding: 14px 16px;
 }
 
 nav ul li a:hover {
