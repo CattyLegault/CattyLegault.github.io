@@ -121,7 +121,7 @@ input[type=text], select {
   display: inline-block;
 }
 
-.buttons {
+button {
   width: 100%;
   background-color: white;
   color: #3f5743;
