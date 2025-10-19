@@ -133,6 +133,11 @@ button {
   display: block;
 }
 
+button:hover {
+  background-color: #d76336;
+  color: white;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
