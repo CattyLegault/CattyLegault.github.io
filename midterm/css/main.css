@@ -121,6 +121,16 @@ input[type=text], select {
   display: inline-block;
 }
 
+input [type=submit] {
+  width: 100%;
+  background-color: white;
+  color: #3f5743;
+  padding: 5px;
+  margin: 4px 0;
+  border: 1px solid #82bcaa;
+  border-radius: 2px;
+}
+
 footer {
   text-align: right;
   background-color: #d76336;
