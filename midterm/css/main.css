@@ -115,6 +115,7 @@ input[type=text], select {
 
 .form-group {
   display: inline-block;
+  margin: 5px;
 }
 
 button {
