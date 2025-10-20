@@ -95,7 +95,8 @@ label {
 
 #Contact {
   border: 1px solid #82bcaa;
-  margin: 3px;
+  margin: 5px;
+  padding: 8px;
 }
 
 input[type=text], select {
