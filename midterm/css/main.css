@@ -113,6 +113,10 @@ input[type=text], select {
   display: inline-block;
 }
 
+.form-group {
+  display: inline-block;
+}
+
 button {
   background-color: white;
   color: #3f5743;
