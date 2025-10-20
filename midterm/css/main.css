@@ -109,10 +109,6 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-.facts {
-  text-decoration: dashed;
-}
-
 #id {
   display: inline-block;
 }
