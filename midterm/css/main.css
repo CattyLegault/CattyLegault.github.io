@@ -95,6 +95,10 @@ form {
   padding: 20px;
 }
 
+.frame {
+  border-radius: 1px solid #82bcaa;
+}
+
 label {
   display: block;
 }
