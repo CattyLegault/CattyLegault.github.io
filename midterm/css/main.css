@@ -118,7 +118,7 @@ input[type=text], select {
 }
 
 .radio-buttons {
-  display: inline-block;
+  display: inline;
 }
 
 button {
