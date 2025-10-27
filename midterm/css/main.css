@@ -70,6 +70,7 @@ nav ul li:last-child {
 h2 {
   margin: 10px;
   padding-top: 5px;
+  color: #d76336;
 }
 
 .image {
@@ -87,6 +88,7 @@ p {
 
 h3 {
   margin: 3px;
+  color: #d76336;
 }
 
 label {
