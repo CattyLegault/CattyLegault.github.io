@@ -222,8 +222,11 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
   grid-template-areas: 
-  "digital marketing"
-  "video web print";
+  "digital"
+  "marketing"
+  "video"
+  "web"
+  "print";
 }
 
 .digtial {
@@ -333,3 +336,12 @@ footer p {
   }
 
 }
+
+/* .destination { */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-areas:  */
+    /* "desheading desheading" */
+    /* "desIntro desIntro" */
+    /* "desEurope desAsia" */
+    /* "desCanada desAfrica"; */
+  /* } */
