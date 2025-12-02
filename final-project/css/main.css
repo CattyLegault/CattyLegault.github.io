@@ -189,7 +189,7 @@ main {
 .flex-content {
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .about-img  {
