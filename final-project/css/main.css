@@ -133,3 +133,12 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.4;
 }
+
+/* header */
+
+.wrapper {
+    background-image: url(images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
