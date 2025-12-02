@@ -193,7 +193,15 @@ main {
 }
 
 .about-img  {
-    width: 30px;
+    width: 100%;
+}
+
+/* services */
+
+.card {
+  border: 2px solid #222;
+  padding: 1rem;
+  background-color: #fff;
 }
 
 /* font size */
