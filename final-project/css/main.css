@@ -190,6 +190,7 @@ main {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+    background-color: #ffe6ac;
 }
 
 .about-img  {
@@ -198,13 +199,13 @@ main {
 
 /* services */
 
-.card {
+.cards {
   border: 2px solid #222;
   padding: 1rem;
   background-color: #fff;
 }
 
-.cards {
+.card {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -215,7 +216,6 @@ main {
   "video"
   "web"
   "print";
-  background-color: #ffe6ac;
 }
 
 .digtial {
