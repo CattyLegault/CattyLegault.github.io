@@ -136,14 +136,6 @@ body {
 
 /* header */
 
-.wrapper {
-    background-image: url(main-banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 4rem 1rem;
-}
-
 nav {
   background-color: #222;
    display: flex; 
@@ -184,6 +176,15 @@ nav ul a:focus {
     margin-top: 8px;
     font-size: 17px;
     border: 2px solid #c78b07;
+}
+
+/* wrapper */
+.wrapper {
+    background-image: url(main-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 1rem;
 }
 
 /* main html */
