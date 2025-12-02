@@ -208,14 +208,11 @@ main {
 .card {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
   grid-template-areas: 
-  "digital"
-  "marketing"
-  "video"
-  "web"
-  "print";
+  "digital marketing"
+  "video web print";
 }
 
 .digtial {
