@@ -335,7 +335,7 @@ footer p {
     margin: 0 auto;
   }
 
-.cards { 
+.card { 
     grid-template-columns: 2fr 1fr; 
     grid-template-areas: 
      "digital marketing"
