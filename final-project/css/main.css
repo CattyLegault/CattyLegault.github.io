@@ -204,6 +204,39 @@ main {
   background-color: #fff;
 }
 
+.cards {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  grid-template-areas: 
+  "digital"
+  "marketing"
+  "video"
+  "web"
+  "print";
+}
+
+.digtial {
+    grid-area: digital;
+}
+
+.marketing {
+    grid-area: marketing;
+}
+
+.video {
+    grid-area: video;
+}
+
+.web {
+    grid-area: web;
+}
+
+.print {
+    grid-area: print;
+}
+
 /* font size */
 h1 {
   font-size: 4rem;
