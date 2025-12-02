@@ -178,8 +178,10 @@ main {
 
 /* about */
 
-.about {
+.about-container {
     background-color: #ffe6ac;
+    display: flex;
+    flex-direction: row;
 }
 
 .about-img  {
