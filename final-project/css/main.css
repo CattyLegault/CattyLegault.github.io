@@ -182,6 +182,10 @@ main {
     background-color: #ffe6ac;
 }
 
+.about-img  {
+    width: 100%;
+}
+
 /* font size */
 h1 {
   font-size: 4rem;
