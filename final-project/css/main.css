@@ -183,6 +183,12 @@ main {
     display: flex;
     flex-direction: row;
     margin: 0.5rem;
+    padding: 30px;
+}
+
+.flex-content {
+    display: flex;
+    align-items: flex-end;
 }
 
 .about-img  {
