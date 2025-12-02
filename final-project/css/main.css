@@ -186,15 +186,6 @@ nav ul a:focus {
     border: none;
 }
 
-.search-container button {
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-left: 4px;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
 /* main html */
 main {
   margin: 0 0.5rem;
