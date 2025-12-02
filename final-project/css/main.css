@@ -137,7 +137,7 @@ body {
 /* header */
 
 .wrapper {
-    background-image: url("main-banner.jpg");
+    background-image: url("images/main-banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
