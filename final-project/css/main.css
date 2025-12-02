@@ -335,13 +335,12 @@ footer p {
     margin: 0 auto;
   }
 
+.cards { 
+    grid-template-columns: 2fr 1fr; 
+    grid-template-areas: 
+     "digital marketing"
+    "video web print";
+
 }
 
-/* .destination { */
-    /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-areas:  */
-    /* "desheading desheading" */
-    /* "desIntro desIntro" */
-    /* "desEurope desAsia" */
-    /* "desCanada desAfrica"; */
-  /* } */
+}
