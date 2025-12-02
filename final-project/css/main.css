@@ -138,8 +138,8 @@ body {
 nav {
   background-color: #222;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   overflow: hidden;
   padding: 10px 20px;
 }
