@@ -248,6 +248,32 @@ p {
   font-size: 1rem;
 }
 
+/* hours of oporation */
+
+table, tr, td, th {
+    border: 1px solid #222;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+}
+
+label {
+    position: absolute;
+    top: -1000px;
+}
+
 /* footer */
 
 footer {
