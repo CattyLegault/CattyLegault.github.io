@@ -176,6 +176,12 @@ main {
   margin: 0 0.5rem;
 }
 
+/* about */
+
+.about {
+    background-color: #ffe6ac;
+}
+
 /* font size */
 h1 {
   font-size: 4rem;
