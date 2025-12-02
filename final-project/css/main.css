@@ -185,6 +185,7 @@ nav ul a:focus {
     background-position: center;
     background-size: cover;
     padding: 4rem 1rem;
+    height: 100%;
 }
 
 /* main html */
