@@ -145,8 +145,12 @@ body {
 }
 
 nav {
-  padding: 1.5rem 0;
   background-color: #222;
+   display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden; 
+    padding: 10px 20px;
 }
 
 nav ul {
@@ -172,6 +176,27 @@ nav ul a:focus {
   color: #222;
 }
 
+.search-container form {
+    display: flex; /* Aligns input and button horizontally */
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 4px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* main html */
 main {
   margin: 0 0.5rem;
 }
