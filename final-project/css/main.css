@@ -168,8 +168,8 @@ nav ul a {
 
 nav ul a:hover,
 nav ul a:focus {
-  background-color: #222;
-  color: #c78b07;
+  background-color: #c78b07;
+  color: #222;
 }
 
 main {
@@ -179,7 +179,7 @@ main {
 /* font size */
 h1 {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2 {
