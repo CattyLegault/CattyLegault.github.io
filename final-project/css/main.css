@@ -182,11 +182,11 @@ main {
     background-color: #ffe6ac;
     display: flex;
     flex-direction: row;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .about-img  {
-    width: 30%;
+    width: 30px;
 }
 
 /* font size */
