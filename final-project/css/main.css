@@ -263,7 +263,10 @@ footer {
     background-color: #222;
     color: #c78b07;
     padding: 1rem;
-    margin: 0.5rem;
+}
+
+footer p {
+    font-size: smaller;
 }
 
 @media screen and (min-width: 700px) {
