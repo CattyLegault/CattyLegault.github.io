@@ -143,3 +143,8 @@ body {
     background-size: cover;
     padding: 4rem 1rem;
 }
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
