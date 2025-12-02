@@ -199,37 +199,6 @@ main {
 
 /* services */
 
-.card .digital {
-  border: 2px solid #222;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-.card .marketing {
-  border: 2px solid #222;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-.card .video {
-  border: 2px solid #222;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-.card .web {
-  border: 2px solid #222;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-.card .print {
-  border: 2px solid #222;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-
 .card {
   margin-top: 1rem;
   display: grid;
