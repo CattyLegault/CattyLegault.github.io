@@ -177,7 +177,7 @@ nav ul a:focus {
 }
 
 .search-container form {
-    display: flex; /* Aligns input and button horizontally */
+    display: flex;
 }
 
 .search-container input[type=text] {
