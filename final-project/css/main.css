@@ -152,23 +152,23 @@ p {
   font-size: 1rem;
 }
 
-nav {
+.navbars {
   background-color: #222;
   padding: 0.5rem 0;
 }
 
-nav ul {
+.nav-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-nav ul li {
+.nav-link ul li {
   padding: 1rem;
 }
 
-nav ul a {
+.nav-link ul a {
   text-decoration: none;
   color: #c78c06;
   padding: 1rem;
@@ -179,8 +179,8 @@ main {
 }
 
 /* navigation styles on hover and focus */
-nav ul a:hover,
-nav ul a:focus {
+.nav-link ul a:hover,
+.nav-link ul a:focus {
   background-color: #c78c06;
   color: #222;
 }
@@ -212,7 +212,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     overflow: hidden;
   }
 
