@@ -195,7 +195,9 @@ footer {
     background-color: #222;
     color: #c78c06;
     padding: 1rem;
-    font-size: smaller;
+    font-size: x-small;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* styles for screens 760px and over */
