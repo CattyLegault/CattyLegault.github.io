@@ -134,14 +134,6 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
-/* Header */
-
-header {
-  background-color: #222;
-  padding: 2rem 1rem;
-  opacity: 0.75;
-}
-
 /* font sizes for mobile */
 
 h1 {
@@ -178,6 +170,17 @@ nav ul li {
 
 nav ul a {
   text-decoration: none;
-  color: inherit;
+  color: #c78c06;
   padding: 1rem;
+}
+
+/* navigation styles on hover and focus */
+nav ul a:hover,
+nav ul a:focus {
+  background-color: #c78c06;
+  color: #222;
+}
+
+main {
+  margin: 0 0.5rem;
 }
