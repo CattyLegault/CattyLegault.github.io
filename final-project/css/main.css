@@ -185,8 +185,20 @@ nav ul a:focus {
 
 }
 
+.img-wrapper {
+    background-position: center;
+  padding: 4rem 1rem;
+  color: #f6f8fb;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 main {
   margin: 0 0.5rem;
+}
+
+body {
+    line-height: 1.4;
 }
 
 /* footer */
