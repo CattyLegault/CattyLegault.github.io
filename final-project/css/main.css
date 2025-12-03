@@ -131,7 +131,7 @@ table {
 /* font family on HTML */
 
 html {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* font sizes for mobile */
@@ -181,12 +181,11 @@ nav ul a:focus {
 }
 
 .icon {
-    padding: 1rem;
-
+  padding: 1rem;
 }
 
 .img-wrapper {
-    background-position: center;
+  background-position: center;
   padding: 4rem 1rem;
   color: #f6f8fb;
   background-repeat: no-repeat;
@@ -198,18 +197,18 @@ main {
 }
 
 body {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 /* footer */
 
 footer {
-    background-color: #222;
-    color: #c78c06;
-    padding: 1rem;
-    font-size: 0.25rem;
-    margin: 5px;
-    padding: 35px;
+  background-color: #222;
+  color: #c78c06;
+  padding: 1rem;
+  font-size: 0.25rem;
+  margin: 5px;
+  padding: 35px;
 }
 
 /* styles for screens 760px and over */
