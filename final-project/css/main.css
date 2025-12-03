@@ -205,7 +205,7 @@ main {
   /* navigation direction control */
   nav ul {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
   main {
     max-width: 1100px;
