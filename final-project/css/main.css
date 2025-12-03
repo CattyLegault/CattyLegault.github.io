@@ -208,8 +208,9 @@ main {
     flex-direction: row;
     justify-content: space-around;
   }
+  
   main {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
   }
 }
