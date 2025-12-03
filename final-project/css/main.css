@@ -180,6 +180,10 @@ nav ul a:focus {
   color: #222;
 }
 
+.icon {
+    margin: 0;
+}
+
 main {
   margin: 0 0.5rem;
 }
