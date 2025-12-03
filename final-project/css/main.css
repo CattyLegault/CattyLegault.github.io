@@ -189,6 +189,14 @@ main {
   margin: 0 0.5rem;
 }
 
+/* footer */
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 1rem;
+}
+
 /* styles for screens 760px and over */
 @media screen and (min-width: 760px) {
   h1 {
