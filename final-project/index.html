@@ -11,7 +11,10 @@
       rel="stylesheet"
     />
     <!-- link to icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&"
+    />
     <!-- Custom Css -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Final Project | Lega0296/CattyLegault</title>
@@ -19,33 +22,34 @@
   <body>
     <!-- MAIN header -->
     <header>
-      <nav>
+      <nav class="navigation">
         <div class="icon">
-          <img src="images/logo.png" alt="small image of the logo" />
+          <img src="images/logo.png" alt="logo" />
         </div>
-        <ul>
+        <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="search-container">
+          <form class="search-area" action="search" method="get">
+            <input type="text" placeholder="Search" name="search" />
+            <button class="search-button">
+              <span class="material-symbols-outlined">search</span>
+            </button>
+          </form>
+        </div>
       </nav>
-      <div class="search-container">
-        <form action="search" method="get">
-          <input type="text" placeholder="Search..." name="search" /><span class="material-symbols-outlined">
-search
-</span>
-        </form>
-      </div>
     </header>
     <!-- banner -->
-    <section>
-      <div class="wrapper">
-        <div class="img-wrapper">
-          <img src="images/main-banner.jpg" alt="image of the main banner" />
-        </div>
-        <div class="wrapContent">
+    <main id="home">
+      <section class="wrapper">
+        <!-- <div class="wrapper">
+          <img src="images/main-banner.jpg" alt="main banner"/>
+          </div> -->
+          <div class="wrapContent">
           <h1>Welcome to Three Star Media</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
@@ -53,22 +57,26 @@ search
             eaque. Minima, amet atque quae fugiat impedit voluptatem eveniet
             corrupti rerum unde.
           </p>
-          <button class="connect-button">Connect with us</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="connect-button">
+            Connect with us<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
+          </div>
         </div>
-      </div>
-    </section>
-    <main>
+      </section>
       <!-- About us Section -->
-      <section class="about-container">
+      <section id="about" class="about-container">
         <div class="about-img">
-          <img src="images/about-us.jpg" alt="A photo of us" />
+          <img src="images/about-us.jpg" alt="A photo about us" />
         </div>
-        <div class="flex-content">
+        <div class="about-content">
           <h2>About Us</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-            nihil nam soluta.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
+            sunt harum tenetur eos distinctio officia ipsum consectetur labore
+            eaque. Minima, amet atque quae fugiat impedit voluptatem eveniet
+            corrupti rerum unde.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
@@ -79,58 +87,80 @@ search
       <!-- Our Services section -->
       <section id="services" class="service">
         <h2 class="our-service">Our Services</h2>
-        <div class="card digital">
-          <img
-            src="images/digital.jpg"
-            alt="Imge talking about digital transformation"
-          />
+        <div class="digitalImg">
+          <img src="images/digital.jpg" alt="digital transformation" />
+        </div>
+        <div class="card contentdig">
           <h3>Digital Transformation</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             nihil nam soluta.
           </p>
-          <button class="digital-button">Digital Plans</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="digital-button">
+            Digital Plans<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
-        <div class="card marketing">
-          <img src="images/marketing.jpg" alt="image of marketing" />
+        <div class="marketImg">
+          <img src="images/marketing.jpg" alt="marketing" />
+        </div>
+        <div class="card contentmark">
           <h3>Marketing</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             nihil nam soluta.
           </p>
-          <button class="market-button">Marketing Plans</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="market-button">
+            Marketing Plans><span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
-        <div class="card video">
+        <div class="videoImg">
           <img src="images/video.jpg" alt="image of video production" />
+        </div>
+        <div class="card contentvid">
           <h3>Video Production</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             nihil nam soluta.
           </p>
-          <button class="video-button">Video Plans</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="video-button">
+            Video Plans<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
-        <div class="card web">
+        <div class="webImg">
           <img src="images/web.jpg" alt="image of web development" />
+        </div>
+        <div class="card contentweb">
           <h3>Web Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             nihil nam soluta.
           </p>
-          <button class="web-button">Web Plans</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="web-button">
+            Web Plans<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
-        <div class="card print">
+        <div class="printImg">
           <img src="images/print.jpg" alt="image of print results" />
+        </div>
+        <div class="card contentpri">
           <h3>Print</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
             nihil nam soluta.
           </p>
-          <button class="print-button">Print Plans</button
-          ><span class="material-symbols-outlined"> arrow_right </span>
+          <button class="print-button">
+            Print Plans<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
       </section>
       <!-- Our Vision -->
@@ -146,18 +176,22 @@ search
             perspiciatis nam alias repellat odit voluptatibus cupiditate,
             reiciendis nobis, tempore voluptatum vero voluptas culpa eligendi.
           </p>
+          <button class="vision-button">
+            Learn More<span class="material-symbols-outlined">
+              arrow_right
+            </span>
+          </button>
         </div>
-        <button class="vision-button">Learn More</button
-        ><span class="material-symbols-outlined"> arrow_right </span>
       </section>
       <!-- Our Team -->
-      <section class="wrapper">
+      <section id="team" class="about-wrapper">
+        <h2>Our Team</h2>
         <div class="our-team">
           <div class="card card1">
             <img src="images/john.jpg" alt="profile image of John" />
             <h3>John Doe</h3>
             <h4>CEO and Co-owner</h4>
-            <hr/>
+            <hr />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
               perspiciatis ipsum adipisci, minima deleniti rerum error vel
@@ -169,7 +203,7 @@ search
             <img src="images/bob.jpg" alt="Profile image of Bob" />
             <h3>Bob Rite</h3>
             <h4>CFO and Co-owner</h4>
-            <hr/>
+            <hr />
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
               perspiciatis ipsum adipisci, minima deleniti rerum error vel
@@ -180,7 +214,7 @@ search
         </div>
       </section>
       <!-- Contact Us Section -->
-      <section class="contactForm">
+      <section id="contact" class="contactForm">
         <!-- Form -->
         <h2>Contact Us</h2>
         <div id="contact">
@@ -196,11 +230,33 @@ search
             </div>
             <div>
               <label for="message">Message</label>
-              <input id="message" type="text" name="Your message" />
+              <textarea id="message"></textarea>
             </div>
             <button class="button send">Send</button>
           </form>
         </div>
+        <!-- Hours of operation -->
+        <section class="HoursInfo">
+          <table>
+            <h4>Hours of Operation</h4>
+            <thead>
+              <tr>
+                <th>Days</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday-Friday</td>
+                <td>Saturday-Sunday</td>
+              </tr>
+              <tr>
+                <td>9AM - 6PM</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
         <!-- location -->
         <div id="location" class="locationInfo">
           <h2>Location</h2>
@@ -214,30 +270,6 @@ search
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </section>
-      <!-- Hours of operation -->
-      <section class="HoursInfo">
-        <table>
-          <caption>
-            Hours of Operation
-          </caption>
-          <thead>
-            <tr>
-              <th>Days</th>
-              <th>Hours</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Monday-Friday</td>
-              <td>Saturday-Sunday</td>
-            </tr>
-            <tr>
-              <td>9AM - 6PM</td>
-              <td>Closed</td>
-            </tr>
-          </tbody>
-        </table>
       </section>
     </main>
     <!-- Footer -->
