@@ -455,14 +455,14 @@ input[type="send"] {
   border-radius: 4px;
 }
 
-  .responsive-form {
-    margin-left: 35px;
-  }
+.responsive-form {
+  margin-left: 35px;
+}
 
-  .responsive-form h3 {
-    font-weight: 800;
-    font-size: x-large;
-  }
+.responsive-form h3 {
+  font-weight: 800;
+  font-size: x-large;
+}
 
 .button-send {
   background-color: #222;
