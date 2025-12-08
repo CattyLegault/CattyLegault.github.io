@@ -153,7 +153,7 @@ h3 {
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 1rem;
 }
 
 /* navigation */
@@ -248,12 +248,13 @@ nav ul a:focus {
 
 .about-content {
   text-align: left;
-  width: 100%;
+  max-width: 1200px;
 }
 
 .about-img {
   width: 100%;
   margin: 10px;
+  height: auto;
 }
 
 .about-content p {
@@ -269,6 +270,7 @@ nav ul a:focus {
 .service-container {
   display: block;
   margin: 30px 10px;
+  padding-bottom: 20px;
 }
 
 .service-head {
@@ -363,23 +365,52 @@ nav ul a:focus {
 }
 
 /* Our Team */
-.team-header {
-  font-weight: 700;
-  margin-top: 25px;
-  margin-left: 20px;
+
+.team-wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "header"
+    "johnImg"
+    "johnCon"
+    "bobImg"
+    "bobCon";
 }
 
-.card-img1 img {
-  width: 100%;
+.img-bob {
+  grid-area: bobImg;
 }
 
-.card-img2 img {
-  width: 100%;
+.bob-content {
+  padding: 20px;
+  background-color: #ffe6ac;
+  grid-area: bobCon;
 }
 
 .john-content {
-  padding: 10px;
   background-color: #ffe6ac;
+  grid-area: johnCon;
+  padding: 20px;
+}
+
+.img-john img {
+  grid-area: johnImg;
+}
+
+.team-header {
+  font-weight: 700;
+  margin-left: 20px;
+  grid-area: header;
+}
+
+.img-john img {
+  width: 100%;
+}
+
+.img-bob img {
+  width: 100%;
 }
 
 hr {
@@ -397,17 +428,10 @@ hr {
 
 .team-john {
   margin-bottom: 10px;
-  display: block;
-}
-
-.bob-content {
-  padding: 10px;
-  background-color: #ffe6ac;
 }
 
 .team-bob {
   margin-bottom: 10px;
-  display: block;
 }
 
 .bob-content h3 {
@@ -420,6 +444,10 @@ hr {
 
 /* Contact Us */
 
+.Contact-container {
+  display: block;
+}
+
 .contact-h2 {
   font-weight: 700;
   font-size: xx-large;
@@ -427,10 +455,11 @@ hr {
 }
 
 .responsive-form {
+  display: block;
   max-width: 600px;
   width: 100%;
   border-radius: 4px;
-  padding: 20px;
+  margin-left: 35px;
 }
 
 label {
@@ -453,10 +482,6 @@ input[type="send"] {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-}
-
-.responsive-form {
-  margin-left: 35px;
 }
 
 .responsive-form h3 {
@@ -509,6 +534,17 @@ td {
   text-align: center;
 }
 
+/* location */
+.locationInfo {
+  display: block;
+  width: 100%;
+}
+
+.locationInfo h2 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
 /* footer */
 
 footer {
@@ -526,11 +562,11 @@ footer {
   }
 
   h2 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
   }
 
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   p {
@@ -557,13 +593,30 @@ footer {
     padding: 20px;
   }
 
-  .about-container {
-    display: flex;
-    flex-direction: row;
+  /* about */
+
+  .about-img img {
+    display: grid;
+    padding: 20px;
+    width: 500px;
+    margin-left: 40px;
+  }
+
+  .about-content {
+    display: grid;
+    padding-right: 10px;
+    margin-right: 40px;
   }
 
   .about-content p {
     padding: 0.5rem;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin-bottom: 100px;
   }
 
   /*  service grid grows  */
@@ -603,16 +656,21 @@ footer {
   }
 
   .service-head {
-    display: block;
-    grid-row: -2;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: -3;
   }
 
   /* team */
-  .team-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+
+  .team-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "header"
+    "johnImg johnImg johnCon johnCon"
+    "bobCon bonCon bobImg bobImg";
   }
+
   /* contact form */
   label,
   input[type="text"],
