@@ -228,11 +228,13 @@ nav ul a:focus {
 
 .connect-button {
   background-color: #c78c06;
-  opacity: none;
   color: #222;
   margin: 10px;
-  opacity: 100%;
   padding: 15px;
+}
+
+.wrapContent .connect-button {
+  opacity: 1;
 }
 
 .wrapContent h1 {
@@ -367,49 +369,35 @@ nav ul a:focus {
 /* Our Team */
 
 .team-wrapper {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-    "header"
-    "johnImg"
-    "johnCon"
-    "bobImg"
-    "bobCon";
-}
-
-.img-bob {
-  grid-area: bobImg;
+  display: flex;
+  flex-direction: column;
 }
 
 .bob-content {
-  padding: 20px;
+  padding: 30px;
+  display: block;
   background-color: #ffe6ac;
-  grid-area: bobCon;
 }
 
 .john-content {
   background-color: #ffe6ac;
-  grid-area: johnCon;
-  padding: 20px;
-}
-
-.img-john img {
-  grid-area: johnImg;
+  display: block;
+  padding: 30px;
 }
 
 .team-header {
   font-weight: 700;
+  padding-top: 10px;
   margin-left: 20px;
-  grid-area: header;
 }
 
 .img-john img {
   width: 100%;
+  display: block;
 }
 
 .img-bob img {
+  display: block;
   width: 100%;
 }
 
@@ -424,14 +412,6 @@ hr {
 
 .john-content h4 {
   font-weight: 500;
-}
-
-.team-john {
-  margin-bottom: 10px;
-}
-
-.team-bob {
-  margin-bottom: 10px;
 }
 
 .bob-content h3 {
@@ -593,6 +573,13 @@ footer {
     padding: 20px;
   }
 
+  /* connect button */
+
+  .connect-button:hover {
+  background-color: #222;
+  color: #c78c06;
+}
+
   /* about */
 
   .about-img img {
@@ -663,12 +650,47 @@ footer {
 
   /* team */
 
-  .team-wrapper {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "header"
-    "johnImg johnImg johnCon johnCon"
-    "bobCon bonCon bobImg bobImg";
+  .team-container {
+    margin: 10px;
+    padding: 80px;
+    justify-content: center;
+  }
+
+  .team-john {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .team-bob {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .img-bob {
+    display: flex;
+    width: 100%;
+  }
+
+  .img-john {
+   display: flex;
+    width: 100%;
+  }
+
+  .john-content {
+    flex-direction: row;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .bob-content {
+    flex-direction: row;
+    display: inline-block;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .team-header {
+    width: 100%;
   }
 
   /* contact form */
