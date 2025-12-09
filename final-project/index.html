@@ -22,9 +22,10 @@
   <body>
     <!-- MAIN header -->
     <header>
-      <nav class="navigation">
+      <nav class="navbar">
+        <div class="nav-container">
         <div class="icon">
-          <img src="images/logo.png" alt="logo" />
+          <img src="images/logo.png" alt="logo"/>
         </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
@@ -41,11 +42,12 @@
             </button>
           </form>
         </div>
+        </div>
       </nav>
     </header>
     <!-- banner -->
     <main id="home">
-      <section class="wrapper">
+      <section class="home-wrapper">
         <!-- <div class="wrapper">
           <img src="images/main-banner.jpg" alt="main banner"/>
           </div> -->
@@ -172,7 +174,7 @@
         <div class="team-container">
            <div class="team-john">
           <div class="img-john">
-            <img src="images/john.jpg" alt="profile image of John" />
+            <img src="images/john.jpg" width="300" height="330" alt="profile image of John" />
           </div>
           <div class="john-content">
             <h3>John Doe</h3>
@@ -188,7 +190,7 @@
           </div>
           <div class="team-bob">
           <div class="img-bob">
-            <img src="images/bob.jpg" alt="Profile image of Bob" />
+            <img src="images/bob.jpg" width="300" height="330" alt="Profile image of Bob" />
             </div>
             <div class="bob-content">
             <h3>Bob Rite</h3>
@@ -206,11 +208,12 @@
         </div>
       </section>
       <!-- Contact Us Section -->
-      <section id="contact" class="Contact-container">
-        <!-- Form -->
+      <section>
         <h2 class="contact-h2">Contact Us</h2>
+        <!-- Form -->
+        <div id="contact" class="Contact-container">
         <div class="responsive-form" id="contact">
-          <h3>Send us a message</h3>
+          <h3 class="message-h3">Send us a message</h3>
           <form action="thank-you.html" method="get">
             <div>
               <label for="fullname">Full Name</label>
@@ -228,7 +231,7 @@
           </form>
         </div>
         <!-- Hours of operation -->
-        <section class="HoursInfo">
+        <div class="HoursInfo">
           <table>
             <h3 class="caption-h3">Hours of Operation</h3>
             <thead>
@@ -248,7 +251,7 @@
               </tr>
             </tbody>
           </table>
-        </section>
+        </div>
         <!-- location -->
         <div id="location" class="locationInfo">
           <h2>Location</h2>
@@ -261,6 +264,7 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+        </div>
         </div>
       </section>
     </main>
