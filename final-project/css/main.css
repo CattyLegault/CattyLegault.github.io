@@ -199,7 +199,6 @@ p {
   border: none;
   width: 100%;
   font-size: 17px;
-
 }
 
 .search-container {
@@ -220,8 +219,8 @@ p {
 
 /* welcome wrapper */
 .home-wrapper {
-  display: flex;
-  max-width: 1200px;
+  display: block;
+  width: 92.75%;
   background-image: url("../images/main-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -588,7 +587,7 @@ footer a {
 
   .nav-container {
     display: flex;
-    width: 100%;
+    width: 98.25%;
     flex-direction: row;
     align-items: center;
     padding: 20px 10px;
@@ -612,8 +611,9 @@ footer a {
   /* home wrapper */
 
   .home-wrapper {
-  max-width: 1200px;
+  width: 102.2%;
 }
+
 
   /* connect button */
 
@@ -696,7 +696,7 @@ footer a {
 
   .vision-banner {
     background-image: url("../images/vision.jpg");
-    width: 100%;
+    width: 99.5%;
     background-position: center;
     color: #f6f8fb;
     background-repeat: no-repeat;
@@ -808,6 +808,6 @@ footer a {
   /* footer width */
 
   footer {
-    width: 100%;
+    width: 94.5%;
   }
 }
