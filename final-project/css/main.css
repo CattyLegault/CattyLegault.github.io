@@ -220,7 +220,7 @@ p {
 
 /* welcome wrapper */
 .home-wrapper {
-  display: block;
+  display: flex;
   max-width: 1200px;
   background-image: url("../images/main-banner.jpg");
   background-position: center;
@@ -588,7 +588,7 @@ footer a {
 
   .nav-container {
     display: flex;
-    width: 98.25%;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     padding: 20px 10px;
@@ -612,7 +612,7 @@ footer a {
   /* home wrapper */
 
   .home-wrapper {
-  width: 102.2%;
+  max-width: 1200px;
 }
 
   /* connect button */
@@ -696,7 +696,7 @@ footer a {
 
   .vision-banner {
     background-image: url("../images/vision.jpg");
-    width: 99.5%;
+    width: 100%;
     background-position: center;
     color: #f6f8fb;
     background-repeat: no-repeat;
@@ -808,6 +808,6 @@ footer a {
   /* footer width */
 
   footer {
-    width: 94.5%;
+    width: 100%;
   }
 }
