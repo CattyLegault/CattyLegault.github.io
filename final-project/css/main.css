@@ -767,6 +767,7 @@ footer a {
   }
 
   .contact-h2 {
+    text-align: left;
     grid-column: 1/2;
     grid-row: 3;
     font-size: 45px;
