@@ -446,6 +446,7 @@ hr {
 
 .Contact-container {
   display: block;
+  width: 100%;
 }
 
 .contact-h2 {
