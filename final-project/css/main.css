@@ -201,6 +201,16 @@ p {
   font-size: 17px;
 }
 
+.material-symbols-outlined-search {
+  background-color: #c78c06;
+  color: #222;
+}
+
+.material-symbols-outlined-search:hover {
+  background-color: #222;
+  color: #c78c06;
+}
+
 .search-container {
   width: 400px;
 }
