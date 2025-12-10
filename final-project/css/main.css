@@ -159,32 +159,33 @@ p {
 
 /* navigation */
 
-nav {
+.nav-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   background-color: #222;
-  padding: 20px 80px;
+  padding: 25px 70px;
 }
 
 .icon {
+  display: block;
+  align-items: center;
   text-decoration: none;
+  background-color: #c78c06;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.nav-links li a {
+  display: block;
   text-align: center;
-}
-
-.nav-links {
-  padding: 40px;
-  margin: 10px;
-}
-
-nav li a {
   text-decoration: none;
   list-style-type: none;
   color: #c78c06;
-  padding: 10px 70px;
-  margin: 40px;
-  font-size: 1.175rem;
+  padding: 0 13px;
+  font-size: 1rem;
+  padding: 13px;
 }
 
 .search-area {
@@ -201,24 +202,14 @@ nav li a {
 }
 
 .search-container {
-  width: 420px;
+  width: 400px;
 }
 /* navigation styles on hover */
 
-.search-button button {
-  padding: 6px 10px;
-  background-color: #c78c06;
-  color: #222;
-  font-size: 17px;
-  border-radius: 1px solid #c78c06;
-}
-
-nav ul li a:hover {
-  text-decoration: none;
-  list-style-type: none;
+.nav-links li a:hover {
   color: #222;
   background-color: #c78c06;
-  padding: 0 70px;
+  padding: 13px;
 }
 
 .search-button button:hover {
@@ -228,31 +219,33 @@ nav ul li a:hover {
 
 /* welcome wrapper */
 .home-wrapper {
-  max-width: 1200px;
+  width: 100%;
   background-image: url("../images/main-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .wrapContent {
   margin: 40px;
-  opacity: 0.75;
-  background-color: #222;
+  background-color: rgba(2, 2, 2, 0.6);
   color: #fff;
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
-.connect-button {
+#connect-but {
   background-color: #c78c06;
   color: #222;
-  margin: 10px;
+  margin: 20px;
   padding: 15px;
+  opacity: 1;
+  font-size: larger;
 }
 
-.wrapContent .connect-button button {
-  opacity: 100%;
+#connect-but:hover {
+  background-color: #222;
+  color: #c78c06;
 }
 
 .wrapContent h1 {
@@ -262,9 +255,11 @@ nav ul li a:hover {
 /* about us section */
 
 .about-container {
-  flex-direction: column;
+  display: grid;
   background-color: #ffe6ac;
-  width: 100%;
+  max-width: 1200px;
+  margin: 0;
+  padding: 10px 30px;
 }
 
 .about-content {
@@ -274,15 +269,15 @@ nav ul li a:hover {
 
 .about-img img {
   width: 100%;
-  margin: 10px;
 }
 
 .about-content p {
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 
 .about-h2 {
   font-weight: 700;
+  margin-left: 20px;
 }
 
 /* Our Services */
@@ -383,6 +378,11 @@ nav ul li a:hover {
   background-color: #0c1f36;
   border: 1px solid #c78c06;
   color: #fff;
+}
+
+.vision-button:hover {
+  background-color: #c78c06;
+  color: #0c1f36;
 }
 
 /* Our Team */
@@ -554,6 +554,10 @@ footer {
   padding: 35px;
 }
 
+footer a {
+  color: #c78c06;
+}
+
 /* styles for screens 760px and over */
 @media screen and (min-width: 760px) {
   h1 {
@@ -579,19 +583,26 @@ footer {
 
   /* navigation direction control */
 
-  .navigation {
+  .nav-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px 10px;
   }
 
   .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     list-style-type: none;
+    text-decoration: none;
   }
 
-  .nav-links ul li a {
+  .nav-container .icon {
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    background-color: #c78c06;
   }
 
   /* connect button */
@@ -605,27 +616,28 @@ footer {
 
   .about-img img {
     display: grid;
-    padding: 20px;
-    max-width: 500px;
-    margin-left: 40px;
+    padding: 19.5px;
+    max-width: 490px;
+    margin-left: 20px;
   }
 
   .about-content {
     display: grid;
     padding-right: 10px;
-    margin-right: 40px;
+    margin-right: 43px;
+    max-width: 100%;
   }
 
   .about-content p {
-    padding: 0.25rem;
+    padding: 0.5rem;
   }
 
   .about-container {
     display: grid;
-    max-width: 1200px;
-    grid-template-columns: repeat(2, 1fr) 50px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   /*  service grid grows  */
@@ -710,7 +722,7 @@ footer {
   }
 
   .john-content {
-     flex-direction: row;
+    flex-direction: row;
     justify-content: flex-start;
     width: 100%;
   }
@@ -777,7 +789,9 @@ footer {
     margin-left: 20px;
   }
 
-  .message-h3 {
+   .message-h3 {
     padding-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
   }
 }
