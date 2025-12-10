@@ -721,12 +721,12 @@ footer a {
     flex-direction: row-reverse;
   }
 
-  .img-bob {
+  .img-bob img {
     display: flex;
     width: 100%;
   }
 
-  .img-john {
+  .img-john img {
     display: flex;
     width: 100%;
   }
